@@ -784,6 +784,7 @@ img {
   position: relative;
   z-index: 2;
   width: 33.3333334%;
+  /* height: 90%; */
   overflow: hidden;
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
@@ -1802,3 +1803,8 @@ img {
   bottom: 100px;
 }
 /*# sourceMappingURL=style.css.map */
+.service-image {
+  filter: grayscale(100%);
+  width: 90px;
+  height: 70px;
+}
